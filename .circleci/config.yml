@@ -208,6 +208,7 @@ jobs:
           command: |
             pwd
             cd .circleci/ansible
+            cat inventory.txt
             ls -al
             ansible-playbook -i inventory.txt configure-server.yml
             exit 1
