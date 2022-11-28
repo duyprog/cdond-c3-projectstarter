@@ -160,10 +160,6 @@ jobs:
           command: |
             yum install tar -y
             yum install gzip -y
-            yum install nodejs -y
-            yum install npm -y
-            # yum install tar -y
-            # yum install tar -y
 
       - run:
           name: Ensure back-end infrastructure exists
