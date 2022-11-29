@@ -12,9 +12,11 @@
   apt: 
     name: "{{ item }}"
     state: latest 
+    update_cache: yes
   with_items: 
     - nodejs 
     - npm 
+
 - name: install pm2 
   npm:  
     name: pm2 
