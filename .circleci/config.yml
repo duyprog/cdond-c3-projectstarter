@@ -398,9 +398,6 @@ jobs:
           command: |
             yum install tar gzip -y
       - run:
-          name: Update cloudfront distribution
-          command: |
-      - run:
           name: Get old stack workflow id
           command: |
             export OldWorkflowID=$(aws cloudformation \
