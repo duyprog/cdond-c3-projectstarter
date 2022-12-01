@@ -1,0 +1,2 @@
+s3: http://udapeople-54c19a4.s3-website-us-west-2.amazonaws.com
+github: https://github.com/duyprog/cdond-c3-projectstarter
