@@ -26,6 +26,7 @@ commands:
     steps:
       - run:
           name: Revert migrations
+          when: on_fail
           # Add when this will run
           command: |
             SUCCESS=$(curl --insecure https://kvdb.io/AVxoVf8UMw2tUekVEfPpNU/migration_${CIRCLE_WORKFLOW_ID:0:7})
