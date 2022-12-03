@@ -1,2 +1,2 @@
-s3: http://udapeople-9f8e339.s3-website-us-west-2.amazonaws.com
+s3: http://udapeople-4538949.s3-website-us-west-2.amazonaws.com
 github: https://github.com/duyprog/cdond-c3-projectstarter
